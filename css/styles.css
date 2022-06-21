@@ -719,22 +719,18 @@ body {
     fill: var(--accent-color);
 }
 
-
-
 .modal-form {
     width: 448px;
-       margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     padding-top: 75px;
 }
 
 .form-group {
     position: relative;
-     display: flex;
+    display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-
-
 }
 
 .form-group:not(:last-child) {
@@ -840,8 +836,6 @@ body {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 
-    
-
 }
 
 .checkbox:checked~.agreement::after {
@@ -852,7 +846,7 @@ body {
 
 .contract {
     color: var(--accent-color);
-  
+
 
 }
 
@@ -874,6 +868,14 @@ body {
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+
+    transition: background-color var(--timing-function);
+
+}
+
+.modal-form button[type="submit"]:hover,
+.modal-form button[type="submit"]:focus {
+    background-color: #188CE8;
 }
 
 .comment {
@@ -891,11 +893,6 @@ body {
 
     transition: outline-color var(--timing-function);
 }
-
-
-
-
-
 
 
 /* -------------------------------------Страница 2 (портфолио)--------------------------------------*/
@@ -982,12 +979,10 @@ body {
     transform: translateY(0)
 }
 
-
 .portfolio-layer {
     position: relative;
     overflow: hidden;
 }
-
 
 .portfolio-layer-text {
     position: absolute;
@@ -1009,18 +1004,12 @@ body {
     transition: transform var(--timing-function)
 }
 
-
-
 .works-list {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 
 }
-
-/* .work-btn {
-    
-} */
 
 .header {
     border: 1px solid #ECECEC;
