@@ -715,8 +715,10 @@ body {
     color: #000000;
 }
 
-.modal-close:hover {
+.close:hover,
+.close:focus {
     fill: var(--accent-color);
+  
 }
 
 .modal-form {
@@ -846,7 +848,6 @@ body {
 
 .contract {
     color: var(--accent-color);
-
 
 }
 
