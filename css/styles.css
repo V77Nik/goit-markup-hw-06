@@ -718,7 +718,7 @@ body {
 .close:hover,
 .close:focus {
     fill: var(--accent-color);
-  
+
 }
 
 .modal-form {
@@ -732,11 +732,11 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+
 }
 
 .form-group:not(:last-child) {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 
@@ -814,6 +814,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    margin-top: 15px;
 
     color: var(--third-title-color);
 }
@@ -822,7 +823,9 @@ body {
     -webkit-appearance: none;
     -moz-appearance: none;
 
+
 }
+
 
 .agreement::after {
     position: absolute;
@@ -852,11 +855,12 @@ body {
 }
 
 .modal-form button[type="submit"] {
+
+    display: block;
     width: 200px;
     height: 50px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    margin-left: 124px;
+    margin: 74px auto 40px;
+
 
     font-style: normal;
     font-weight: 700;
@@ -864,6 +868,8 @@ body {
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--second-title-color);
+
+    border: none;
 
     background-color: var(--accent-color);
 
